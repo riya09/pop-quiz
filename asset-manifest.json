@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pop-quiz/static/css/main.ba09124f.chunk.css",
+    "main.js": "/pop-quiz/static/js/main.38c563e6.chunk.js",
+    "main.js.map": "/pop-quiz/static/js/main.38c563e6.chunk.js.map",
+    "runtime~main.js": "/pop-quiz/static/js/runtime~main.402f6919.js",
+    "runtime~main.js.map": "/pop-quiz/static/js/runtime~main.402f6919.js.map",
+    "static/js/2.be491123.chunk.js": "/pop-quiz/static/js/2.be491123.chunk.js",
+    "static/js/2.be491123.chunk.js.map": "/pop-quiz/static/js/2.be491123.chunk.js.map",
+    "index.html": "/pop-quiz/index.html",
+    "precache-manifest.00148d04f319cff7d9564dcc8342350b.js": "/pop-quiz/precache-manifest.00148d04f319cff7d9564dcc8342350b.js",
+    "service-worker.js": "/pop-quiz/service-worker.js",
+    "static/css/main.ba09124f.chunk.css.map": "/pop-quiz/static/css/main.ba09124f.chunk.css.map"
+  }
+}
