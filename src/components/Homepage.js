@@ -29,7 +29,7 @@ class Homepage extends React.Component{
           <div className="category-container">{Object.keys(categories).map((key,index) => {
             return <div className="category-name" onClick={()=>this.generateQuestion(key)}>
               <p className="category-text">{categories[key]}</p>
-              <img className="category-logo" alt={`${categories[key]}`} src={`/images/${categories[key]}.svg`}/>
+              <img className="category-logo" alt={`${categories[key]}`} src={`./images/${categories[key]}.svg`}/>
             </div>
           })}</div>
       </div>
