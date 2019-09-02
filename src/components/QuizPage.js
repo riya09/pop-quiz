@@ -83,7 +83,7 @@ class QuizPage extends React.Component {
               {this.showOption(this.state.data[this.state.counter])}
             </ul>
           </div>
-          <button className="next" onClick={this.nextQuestion}>Next</button>
+          <div className="next-wrapper"><button className="next" onClick={this.nextQuestion}>Next</button></div>
         </div>
       )
     }
