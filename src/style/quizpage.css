@@ -176,27 +176,7 @@ button:focus
   height: 4rem;
   display: block;
 }
-/*@media (min-width: 768px) and (max-width: 1024px) {
-  .quiz-info{
-    top:10rem;
-  }
-  .back-btn{
-    position: relative;
-    top:4rem;
-  }
-  .quiz-score{
-    top:5rem;
-  }
-}
-@media (max-width: 481px) {
-    .quiz-ques{
-      font-size: 1.6rem;
-    }
-    .options{
-      font-size: 1.4rem;
-    }
-}
-*/
+
 @media only screen and (min-width:1300px){
   .quiz-container{
     margin-top: 5rem;
@@ -206,6 +186,9 @@ button:focus
   }
 }
 @media only screen and (max-width:992px){
+  html{
+    font-size: 10px;
+  }
   .quiz-container{
     margin-top: 4rem;
   }
