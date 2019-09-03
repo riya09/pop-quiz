@@ -25,6 +25,9 @@ class Homepage extends React.Component{
     if(!this.state.quizPage){
       return(
         <div className="wrapper">
+          <a href="https://github.com/riya09/pop-quiz/">
+            <img width="120" height="120" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149"
+              className="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"/></a>
           <h1 className="heading">Pop  Quiz</h1>
           <div className="category-container">{Object.keys(categories).map((key,index) => {
             return <div className="category-name" onClick={()=>this.generateQuestion(key)}>
